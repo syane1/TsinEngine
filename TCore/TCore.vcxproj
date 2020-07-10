@@ -151,10 +151,12 @@
     <ClInclude Include="TCommon.h" />
     <ClInclude Include="TMatrix.h" />
     <ClInclude Include="TUtil.h" />
+    <ClInclude Include="TVector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TMatrix.cpp" />
     <ClCompile Include="TUtil.cpp" />
+    <ClCompile Include="TVector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
