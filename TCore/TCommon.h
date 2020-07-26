@@ -34,6 +34,7 @@ namespace T3D
 
 	//项目默认名称
 	const TString DEFAULT_PROJECT_NAME = "T3D_Default_Project";
+	const TString DEFAULT_NAME = "T3D_Default";
 
 	const TString DefaultPath = "Media/";
 	static TString GetPath(const TString& file) { return DefaultPath + file; }

@@ -1,3 +1,5 @@
+#pragma warning(disable : 4996)//忽略4996报错(因安全等问题旧函数弃用建议)
+
 #include "TUtil.h"
 
 namespace T3D

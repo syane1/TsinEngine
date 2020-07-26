@@ -42,7 +42,7 @@ namespace T3D
 	//字符串转化为整数
 	inline TInt StringToInt(const TString &str)
 	{
-		return atoi(str.c_str);
+		return atoi(str.c_str());
 	}
 
 	//字符串转化为浮点数
@@ -88,7 +88,7 @@ namespace T3D
 		std::size_t beg = msg.find_first_not_of(SPACE_CHAR);
 
 		//防止空字符串出现
-		if (beg > msg.length)
+		if (beg > msg.length())
 			return TString();
 		TString result = msg.substr(beg);
 		std::size_t end = result.find_last_not_of(SPACE_CHAR);

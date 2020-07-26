@@ -8,7 +8,7 @@ namespace T3D
 	struct TVector4D;				//四维向量
 	struct TMatrix44;				//4x4矩阵
 
-	struct TVertex;					//顶点
+	struct TVertex4D;					//顶点
 	struct TPolygon4D;				//基于顶点多边形
 	struct TPolygonF4D;				//基于索引多边形
 	struct TObject4D;				//对象
