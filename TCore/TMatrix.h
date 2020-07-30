@@ -213,11 +213,11 @@ namespace T3D
 		inline TMatrix44 operator*(const TMatrix44& right)const
 		{
 			TMatrix44 tmpMtx44;
-			for (TInt i=0; i < 4;++i)
+			for (TInt i; i < 4;++i)
 			{
-				for (TInt j=0; j < 4; ++j)
+				for (TInt j; j < 4; ++j)
 				{
-					for (TInt k=0; k < 4; ++k)
+					for (TInt k; k < 4; ++k)
 						tmpMtx44.m[i][k] = m[i][k] * right.m[i][k];
 				}
 			}

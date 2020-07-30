@@ -3,7 +3,7 @@
 
 namespace T3D
 {
-	TBitmap::TBitmap(const TString& filename) :name(filename), pixels(NULL), Pitch(0), width(0), height(0), valid(false)
+	TBitmap::TBitmap(const TString& filename) :name(filename), pixels(NULL), pitch(0), width(0), height(0), valid(false)
 	{
 		//材质脚本，首先获取默认路径
 		hBitmap = (HBITMAP)::LoadImage(GHInstance, GetPath(filename).c_str(), IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE);
@@ -16,7 +16,7 @@ namespace T3D
 
 			width = bitmap.bmWidth;
 			height = bitmap.bmHeight;
-			Pitch = bitmap.bmHeight;
+			pitch = bitmap.bmHeight;
 			valid = true;
 
 			pixels = new TColor[width*height];
@@ -42,7 +42,7 @@ namespace T3D
 	//获取像素
 	TColor TBitmap::getPixel(TInt x, TInt y)
 	{
-		return pixels[y*Pitch + x];
+		return pixels[y*pitch + x];
 	}
 
 	HINSTANCE GHInstance;
