@@ -14,4 +14,55 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TMeshUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSceneManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCamera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TInputListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TOgreMeshInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TMeshUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSceneManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TGraphics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Instance.X">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>

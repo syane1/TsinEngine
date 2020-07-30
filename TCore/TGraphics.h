@@ -34,7 +34,7 @@ namespace T3D
 
 	public:
 		TColor		*pixels;
-		TInt		pitch;
+		TInt		Pitch;
 		TBool		valid;
 	};
 

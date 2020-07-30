@@ -21,7 +21,7 @@ namespace T3D
 			//这是一个更精确的方法，但是效率第一点
 			TInt x = Abs(u - (TInt)u)*bitmap->width;
 			TInt y = Abs(v - (TInt)v)*bitmap->height;
-			return bitmap->pixels[y*bitmap->pitch + x];
+			return bitmap->pixels[y*bitmap->Pitch + x];
 		}
 		else
 		{

@@ -198,7 +198,7 @@ namespace T3D
 	);
 
 	//将Object插入RenderList，这里LocalList存储的是原始坐标，TransformList存储的是经过平移和缩放的坐标
-	void Inser_Object4D_To_RenderList4D(TRenderList4D* renderList, TObject4D* obj,
+	void Insert_Object4D_To_RenderList4D(TRenderList4D* renderList, TObject4D* obj,
 		OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS,
 		bool transformScaleAndPosition = false
 	);
